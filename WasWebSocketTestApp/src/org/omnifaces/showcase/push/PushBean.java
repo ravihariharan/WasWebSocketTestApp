@@ -3,12 +3,12 @@ package org.omnifaces.showcase.push;
 import java.io.Serializable;
 import java.util.concurrent.atomic.AtomicLong;
 
-import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
 import org.omnifaces.cdi.Push;
 import org.omnifaces.cdi.PushContext;
+import org.omnifaces.cdi.ViewScoped;
 
 @Named
 @ViewScoped

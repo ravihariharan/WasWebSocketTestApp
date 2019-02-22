@@ -27,8 +27,12 @@
 	</servlet-mapping>
 
 	<listener>
+		<listener-class>org.omnifaces.ApplicationListener</listener-class>
+	</listener>
+	<listener>
 		<listener-class>org.apache.myfaces.webapp.StartupServletContextListener</listener-class>
 	</listener>
+	
 
 	<context-param>
 		<param-name>org.apache.myfaces.USE_ENCRYPTION</param-name>
